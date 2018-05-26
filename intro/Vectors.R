@@ -51,5 +51,19 @@ class(hetroVec)
 
 
 
+# Examples
+
+poker_vector1 <- c(140, -50, 20, -120, 240)
+names(poker_vector1) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+poker_vector2 <- c(Monday = 140, -50, 20, -120, 240)
+
+roulette_vector1 <- c(-24, -50, 100, -350, 10)
+days_vector <- names(poker_vector1)
+names(roulette_vector1) <- days_vector
+
+roulette_vector2 <- c(-24, -50, 100, -350, 10)
+names(roulette_vector2) <- "Monday"
+
 
 
